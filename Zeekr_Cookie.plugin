@@ -1,0 +1,10 @@
+#!name=极氪-获取Cookie
+#!desc=极氪汽车 Token 抓取工具。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
+#!author=wf021325
+
+[Script]
+# 修正为新版接口
+http-response ^https:\/\/api-gw-toc\.zeekrlife\.com\/zeekrlife-app-user\/v\d\/user\/info\/query$ script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/zeekr.js, requires-body=true, tag=极氪获取Cookie, enable=true
+
+[Mitm]
+hostname = api-gw-toc.zeekrlife.com
