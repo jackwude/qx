@@ -1,0 +1,9 @@
+#!name=吉利-获取Cookie
+#!desc=吉利汽车 Cookie 抓取。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
+#!author=wf021325
+
+[Script]
+http-response ^https?:\/\/app\.geely\.com\/my\/getMyCenterCounts$ script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/geely.js, requires-body=true, tag=吉利获取Cookie, enable=true
+
+[Mitm]
+hostname = app.geely.com
