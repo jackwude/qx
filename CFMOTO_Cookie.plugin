@@ -1,5 +1,5 @@
-#!name=春风摩托_Cookie
-#!desc=获取春风摩托APP Cookie
+#!name=春风摩托-获取 Cookie
+#!desc=春风摩托 Cookie 抓取。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
 #!author=Leiyiyan
 #!icon=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png
 
