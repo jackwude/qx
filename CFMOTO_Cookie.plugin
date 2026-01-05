@@ -1,0 +1,11 @@
+#!name=春风摩托_Cookie
+#!desc=获取春风摩托APP Cookie
+#!author=Leiyiyan
+#!icon=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png
+
+[Script]
+# 修正为 http-response，监听用户信息接口响应
+http-response ^https:\/\/c\.cfmoto\.com\/jv\/user\/user_info script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/cfmoto/cfmoto.js, requires-body=true, timeout=60, tag=春风摩托_获取Cookie
+
+[Mitm]
+hostname = c.cfmoto.com
