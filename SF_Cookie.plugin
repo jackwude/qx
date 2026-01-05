@@ -1,0 +1,10 @@
+#!name=顺丰-获取Cookie
+#!desc=顺丰速运 Cookie 抓取。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
+#!author=Moli-X
+
+[Script]
+# 修正为验证可用的新接口
+http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://github.com/Moli-X/Resources/raw/main/Script/Sfsy.js, requires-body=true, tag=顺丰速运获取token, enable=true
+
+[Mitm]
+hostname = mcs-mimp-web.sf-express.com
