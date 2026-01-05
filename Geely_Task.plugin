@@ -1,0 +1,7 @@
+#!name=吉利-自动签到
+#!desc=吉利汽车自动签到 (07:30)。✅建议常驻开启。
+#!author=wf021325
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Car.png
+
+[Script]
+cron "30 7 * * *" script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/geely.js, tag=吉利汽车, enable=true
