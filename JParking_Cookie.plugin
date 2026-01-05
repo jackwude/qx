@@ -3,7 +3,8 @@
 #!author=FoKit
 
 [Script]
-http-request ^https:\/\/api\.jparking\.cn\/c\/user\/info script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, requires-body=true, tag=捷停车获取Cookie, enable=true
+# 修正为验证可用的新接口
+http-request ^https:\/\/sytgate\.jslife\.com\.cn\/core-gateway\/order\/carno\/pay\/info script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, requires-body=true, tag=捷停车获取Cookie, enable=true
 
 [Mitm]
-hostname = api.jparking.cn
+hostname = sytgate.jslife.com.cn
