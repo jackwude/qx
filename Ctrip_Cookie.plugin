@@ -1,0 +1,9 @@
+#!name=携程-获取Cookie
+#!desc=携程旅行 Cookie 抓取。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
+#!author=ddgksf2013
+
+[Script]
+http-response ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) script-path=https://github.com/ddgksf2013/Scripts/raw/master/ctrip.js, requires-body=true, tag=携程获取Cookie, enable=true
+
+[Mitm]
+hostname = m.ctrip.com
