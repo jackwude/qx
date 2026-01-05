@@ -1,0 +1,8 @@
+#!name=春风摩托_Task
+#!desc=春风摩托APP每日签到任务
+#!author=Leiyiyan
+#!icon=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png
+
+[Script]
+# 时间来源 QX task_local: 16 7 * * *
+cron "16 7 * * *" script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/cfmoto/cfmoto.js, timeout=60, tag=春风摩托
