@@ -1,0 +1,8 @@
+#!name=极核-自动签到
+#!desc=极核自动签到 (07:00)。✅建议常驻开启。
+#!author=Leiyiyan
+#!icon=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/zeeho.png
+
+[Script]
+# 时间来源 QX task_local: 0 7 * * *
+cron "0 7 * * *" script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/zeeho/zeeho.js, timeout=60, tag=极核
