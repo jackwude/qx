@@ -1,0 +1,10 @@
+#!name=雨晨 iOS-获取 Cookie
+#!desc=雨晨 iOS Cookie 抓取。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
+#!author=Sliverkiss
+
+[Script]
+# 通用规则：用户信息接口
+http-request ^https:\/\/yuchen\.ios\/api\/v1\/user\/info script-path=https://gist.githubusercontent.com/Sliverkiss/9aab5b214f3145e39639a2581e83bb27/raw/yuchenios.js, timeout=10, tag=雨晨 iOS_获取Cookie
+
+[Mitm]
+hostname = yuchen.ios
