@@ -1,0 +1,11 @@
+#!name=极核-获取 Cookie
+#!desc=极核 Cookie 抓取。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
+#!author=Leiyiyan
+#!icon=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/zeeho.png
+
+[Script]
+# 监听设置接口响应获取 Cookie
+http-response ^https:\/\/tapi\.zeehoev\.com\/v1\.0\/mine\/cfmotoservermine\/setting script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/zeeho/zeeho.js, requires-body=true, timeout=60, tag=极核_获取Cookie
+
+[Mitm]
+hostname = tapi.zeehoev.com
