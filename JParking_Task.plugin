@@ -1,0 +1,7 @@
+#!name=捷停车-自动签到
+#!desc=捷停车每日 00:05 自动签到。✅建议常驻开启。
+#!author=FoKit
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Car.png
+
+[Script]
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, tag=捷停车, enable=true
