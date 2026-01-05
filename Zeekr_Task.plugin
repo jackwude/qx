@@ -1,0 +1,7 @@
+#!name=极氪-自动签到
+#!desc=极氪汽车每日 07:30 自动签到。✅建议常驻开启。需开启脚本兼容模式。
+#!author=wf021325
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Car.png
+
+[Script]
+cron "30 7 * * *" script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/zeekr.js, tag=极氪汽车, enable=true
