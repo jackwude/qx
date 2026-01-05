@@ -1,0 +1,7 @@
+#!name=雨晨 iOS-自动签到
+#!desc=雨晨 iOS 自动签到 (01:00)。✅建议常驻开启。
+#!author=Sliverkiss
+
+[Script]
+# 时间来源 QX task_local: 0 1 * * *
+cron "0 1 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/9aab5b214f3145e39639a2581e83bb27/raw/yuchenios.js, timeout=60, tag=雨晨 iOS
