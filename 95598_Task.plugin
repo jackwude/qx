@@ -1,0 +1,8 @@
+#!name=网上国网-自动签到
+#!desc=网上国网自动签到 (周六 10:00)。✅建议常驻开启。
+#!author=Yuheng0101
+#!icon=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.jpg
+
+[Script]
+# 时间来源 QX task_local: 0 10 * * 6 (每周六)
+cron "0 10 * * 6" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, timeout=60, tag=网上国网
