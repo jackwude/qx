@@ -1,0 +1,7 @@
+#!name=顺丰-自动签到
+#!desc=顺丰速运每日 00:03 自动签到。✅建议常驻开启。
+#!author=Moli-X
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SF.png
+
+[Script]
+cron "3 0 * * *" script-path=https://github.com/Moli-X/Resources/raw/main/Script/Sfsy.js, tag=顺丰速运, enable=true
