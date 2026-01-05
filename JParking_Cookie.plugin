@@ -1,0 +1,9 @@
+#!name=捷停车-获取Cookie
+#!desc=捷停车 Cookie 抓取。⚠️含 Mitm，平时请关闭，仅在 Cookie 失效时临时开启。
+#!author=FoKit
+
+[Script]
+http-request ^https:\/\/api\.jparking\.cn\/c\/user\/info script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, requires-body=true, tag=捷停车获取Cookie, enable=true
+
+[Mitm]
+hostname = api.jparking.cn
