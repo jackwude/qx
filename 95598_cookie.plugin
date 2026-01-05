@@ -1,0 +1,15 @@
+#!name=🔴 网上国网
+#!desc=95598 获取Cookie与重写
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1080.png
+#!tag=通用重写
+
+[Script]
+# [你提供的部分] 接口重写 (用于Widget/展示)
+http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=接口重写
+
+# [必须补充的部分] 获取 Cookie (匹配官方App)
+http-request ^https:\/\/osg-app\.95598\.cn\/osg-app\/.* script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=获取Cookie
+
+[MITM]
+# 同时包含虚拟域名和官方域名
+hostname = api.wsgw-rewrite.com, osg-app.95598.cn
