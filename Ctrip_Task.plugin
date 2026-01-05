@@ -1,0 +1,7 @@
+#!name=携程-自动签到
+#!desc=携程旅行自动签到 (07:15, 15:15)。✅建议常驻开启。
+#!author=ddgksf2013
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1003.png
+
+[Script]
+cron "15 7,15 * * *" script-path=https://github.com/ddgksf2013/Scripts/raw/master/ctrip.js, tag=携程旅行, enable=true
