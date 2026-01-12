@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>Loon.cer</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIDMzCCAhugAwIBAgIUetTvH9mvgbaJkcZktQMpAhsvMLEwDQYJKoZIhvcNAQELBQAwOzENMAsGA1UECgwETG9vbjEqMCgGA1UEAwwhTE9PTiBDQSgyMDI2LTAxLTA0KSAxNzY3NTM2Mjk0MjgwMB4XDTI2MDEwNDE0MTgxNFoXDTMxMDEwMzE0MTgxNFowOzENMAsGA1UECgwETG9vbjEqMCgGA1UEAwwhTE9PTiBDQSgyMDI2LTAxLTA0KSAxNzY3NTM2Mjk0MjgwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3Ie/4Do2kbt9xHQdiCbSXz/U/TORLCCf4M2dDRcLTY5OHf4rJ8/zHetph1KRN6rAW+tEC/lni4dwWAy29bdytwEPzA31ytiqd7zC5DNTIdmHLf5JJoEt7BlbuAYv/wvnDXOFLddZGoN/vo4pRzkSG+1Q1ieSUHbVHQw5q6AaCtx+x7NCTGcoyEgxVXM4uUueGE9EP1detJEtKnFk4eyo1kflWpHAjRF9hRkOBh6xkF0OQzsNnZe6O94l+fSZgr1/KMzYOi8Vff3JmWYQ21M8tv7Y/Y8I/tBv+MlLi+Xv0PDqTDZ1kgKAckQlotqUJsyo59OM6m8n7P4knx90mrPUuQIDAQABoy8wLTAMBgNVHRMEBTADAQH/MB0GA1UdDgQWBBT7zWkKmiAnAKDIotaScDrSJ5jbzTANBgkqhkiG9w0BAQsFAAOCAQEAuyHq4hxxlKcJEUfkGsQWXQK8qojAkdlSnc3Nxo1FOLbgcNFYb2p+R5cdz5wb9irQxGpMaqLY8ruu8TGAron2aUIOLM+z2RCKbQhPww1J+bzm58asFHCd8UrfnKrZlmfXDe/qBUtyMKtYl0HQSAfsR8kQaGIhg7JnLwNs4SCsF6CahDILJkF4tiSQFNoS3jE7KRjrbXVNwPSHP4vRi2c5YyhelXr7FIST6ycj/glL/J6JZ4M2F42+BSTKnDZaPjmJxF2Nox4Dbk7LsLPZanMPioM2/Us9M2SbOLtoj+h5jVg0ak87FoEJsQrfpEF6+Fp9J1Iqocky/4c8P4SvinN5qA==
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a CA root certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>Loon CA</string>
+			<key>PayloadIdentifier</key>
+			<string>com.loon.ssl.ca</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>33333333-3333-3333-3333-333333333333</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Loon CA Installer</string>
+	<key>PayloadIdentifier</key>
+	<string>com.loon.installer</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>44444444-4444-4444-4444-444444444444</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
