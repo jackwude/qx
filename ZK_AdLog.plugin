@@ -1,0 +1,9 @@
+#!name=ZK助手广告抓包
+#!desc=只记录 tnxrs.com / zktools.net 请求，不改响应。用完关掉。
+#!author=jackwude
+
+[Script]
+http-request ^https?:\/\/([^\/]+\.)?(tnxrs\.com|zktools\.net)\/ script-path=https://raw.githubusercontent.com/jackwude/qx/main/js/zk-ad-log.js, requires-body=false, tag=ZK助手抓包
+
+[MITM]
+hostname = tnxrs.com, *.tnxrs.com, zktools.net
