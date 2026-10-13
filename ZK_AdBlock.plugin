@@ -1,0 +1,9 @@
+#!name=ZK助手去广告测试
+#!desc=只把 queryConfig 的 Ad 改成 0，其它字段不动。无效就关掉。
+#!author=jackwude
+
+[Script]
+http-response ^http:\/\/www\.zktools\.net:8080\/queryConfig script-path=https://raw.githubusercontent.com/jackwude/qx/main/js/zk-ad-block.js?v=1, requires-body=true, tag=ZK助手去广告测试
+
+[MITM]
+hostname = www.zktools.net
